@@ -45,3 +45,5 @@ Agora os comandos feitos no terminal serão executados pelo container. Para test
 `airflow tasks test user_processing create_table 2023-01-01`
 
 Nesse caso `user_processing` é o nome da minha dag e `create_table` é o nome da minha task. A data deve ser uma data no passado.
+
+
