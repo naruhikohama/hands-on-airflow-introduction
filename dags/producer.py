@@ -3,7 +3,7 @@ from airflow.decorators import task
 
 from datetime import datetime
 
-my_file = Dataset("/tmp?my_tile.txt")
+my_file = Dataset("/tmp/my_tile.txt")
 
 with DAG(
     dag_id = 'producer',
