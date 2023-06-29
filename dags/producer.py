@@ -17,4 +17,4 @@ with DAG(
         with open(my_file.uri, 'a+') as f:
             f.write('producer update')
     
-    update_dataset
+    update_dataset()
