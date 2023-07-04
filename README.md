@@ -46,4 +46,12 @@ Agora os comandos feitos no terminal serão executados pelo container. Para test
 
 Nesse caso `user_processing` é o nome da minha dag e `create_table` é o nome da minha task. A data deve ser uma data no passado.
 
+### Extraindo arquivo config do airflow
+Para extrair o arquivo do docker, você precisa extrair o arquivo do scheduler_1.
+Para isso use o comando `docker ps` no terminal para saber qual container termina com o nome `scheduler_1`. Em seguida digite no terminal:
+
+`docker cp hands-on-airflow-introduction_airflow-scheduler_1:/opt/airflow/airflow.cfg .`
+
+Esse comando irá copiar o arquivo `airflow.cfg` para sua pasta raiz.
+
 
