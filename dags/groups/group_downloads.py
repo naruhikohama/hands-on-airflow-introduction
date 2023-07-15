@@ -20,4 +20,4 @@ def download_tasks():
             bash_command='sleep 10'
         )
 
-        return dag
+        return group
